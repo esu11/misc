@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Execute via "sudo curl https://raw.githubusercontent.com/esu11/misc/refs/heads/main/tomcat-upgrade.sh | sudo bash"
+
 # Set variables
 tcatold=$(curl http://localhost:8080 | rev | cut -c 20-25 | rev)
 tcatnew=9.0.100
