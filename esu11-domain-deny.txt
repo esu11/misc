@@ -1,0 +1,8 @@
+# ESU 11 Denied Domain Names
+#
+# Known DDOS Sites from NOC
+Stressthem.to
+Ipstresser.com
+Ts3booter.net
+Ddosmon.net
+dev-education-ne-gov.pantheonsite.io
