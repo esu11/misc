@@ -2,7 +2,7 @@
 
 # Set variables
 tcatold=$(curl http://localhost:8080 | rev | cut -c 20-25 | rev)
-tcatnew=9.0.98
+tcatnew=9.0.100
 
 #tcatnew=$(curl https://dlcdn.apache.org/tomcat/tomcat-9/ | awk 'FNR == 9 {print $5}' | cut -c 8-13)
 
