@@ -1,0 +1,82 @@
+# ESU 11 Allowed Destination IP Addresses for No Security Profiles
+#
+# ESU11 DMZ
+162.127.11.0/24
+# ESU11 Vultr VPS
+142.4.2.214
+# SECURLY BEGIN
+# Securly DNS
+# USWest
+50.18.216.174
+50.18.216.175
+# USEast
+184.72.238.58
+184.72.238.71
+# USEast2
+18.220.192.95
+18.220.192.111
+# DNS Proxy
+204.110.220.0/22
+67.226.220.0/22
+# Secury SmartPAC
+# USWest
+52.52.63.0/24
+67.226.221.0/24
+204.110.220.11
+# USEast
+52.206.255.0/24
+67.226.220.10
+# USEast2        
+3.19.0.0/16
+67.226.220.0/22
+67.226.222.2
+# SECURLY END
+# Dundy County Stratton Smoothwall Proxy
+204.234.184.50
+# Apple Full Class A
+17.0.0.0/8
+# Apple DOH (DNS Over HTTPS)
+208.91.112.55
+# Mosyle
+20.98.129.28
+23.102.132.77
+13.86.112.220
+# Eduroam TLRS Servers
+163.253.31.2
+163.253.30.2
+# OdysseyWare
+192.138.164.180/32
+# Accelerated Reader
+24.177.128.0/24
+24.177.129.0/24
+71.13.190.0/24
+75.141.7.0/24
+199.66.176.0/24
+199.66.177.0/24
+199.66.178.0/24
+# NWEA MAP State Testing
+198.161.165.82
+# Pearson TestNav
+143.204.25.0/24
+# Powerschool Hosted
+192.230.75.70
+198.143.61.0-198.143.61.10
+# Powerschool.com
+192.230.66.116
+192.130.74.116
+137.117.100.34
+52.191.217.191
+# Neopost Postage Service for Postage Meters
+23.253.147.97
+40.141.82.122
+40.141.63.122
+198.105.7.204
+146.20.53.70
+# Inelligen Coolers
+35.186.229.218
+# Hudl
+54.243.43.5
+34.201.178.27
+44.219.148.113
+# Striv
+151.101.66.159
