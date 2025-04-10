@@ -4,7 +4,7 @@
 
 # Set variables
 tcatold=$(curl http://localhost:8080 | rev | cut -c 20-25 | rev)
-tcatnew=9.0.102
+tcatnew=9.0.104
 #tcatnew=$(curl https://dlcdn.apache.org/tomcat/tomcat-9/ | awk 'FNR == 9 {print $5}' | cut -c 8-14)
 
 wget -P /tmp https://dlcdn.apache.org/tomcat/tomcat-9/v$tcatnew/bin/apache-tomcat-$tcatnew.tar.gz
