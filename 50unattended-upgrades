@@ -12,7 +12,7 @@ Unattended-Upgrade::Allowed-Origins {
         // should also install from here by default.
         "${distro_id}ESMApps:${distro_codename}-apps-security";
         "${distro_id}ESM:${distro_codename}-infra-security";
-        "${distro_id}:${distro_codename}-updates";
+//      "${distro_id}:${distro_codename}-updates";
 //      "${distro_id}:${distro_codename}-proposed";
 //      "${distro_id}:${distro_codename}-backports";
 };
@@ -44,14 +44,14 @@ Unattended-Upgrade::Package-Blacklist {
 Unattended-Upgrade::DevRelease "auto";
 
 // This option allows you to control if on a unclean dpkg exit
-// unattended-upgrades will automatically run 
+// unattended-upgrades will automatically run
 //   dpkg --force-confold --configure -a
 // The default is true, to ensure updates keep getting installed
 //Unattended-Upgrade::AutoFixInterruptedDpkg "true";
 
 // Split the upgrade into the smallest possible chunks so that
 // they can be interrupted with SIGTERM. This makes the upgrade
-// a bit slower but it has the benefit that shutdown while a upgrade
+// a bit slower but it has the benefit that shutdown while an upgrade
 // is running is possible (with a small delay)
 //Unattended-Upgrade::MinimalSteps "true";
 
@@ -141,3 +141,13 @@ Unattended-Upgrade::Automatic-Reboot-Time "02:00";
 // uninstallable packages at the expense of rarely keeping back packages which
 // could be upgraded or installed.
 // Unattended-Upgrade::Allow-APT-Mark-Fallback "true";
+
+// Allow postponing an upgrade by up to this number of days.
+// The feature is disabled if the number of days is 0.
+// Unattended-Upgrade::Postpone-For-Days "0";
+
+// How long should unattended-upgrade wait for a postpone request
+// before proceeding with the update.
+// If the postponing feature is disabled, this option has no effect
+// as unattended-upgrade will not be waiting.
+// Unattended-Upgrade::Postpone-Wait-Time "300";
