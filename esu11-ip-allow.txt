@@ -1,9 +1,5 @@
 # ESU 11 Allowed Destination IP Addresses for No Security Profiles
 #
-# ESU11 DMZ
-162.127.11.0/24
-# ESU11 Vultr VPS
-142.4.2.214
 # SECURLY BEGIN
 # Securly DNS
 # USWest
@@ -31,8 +27,6 @@
 67.226.220.0/22
 67.226.222.2
 # SECURLY END
-# Dundy County Stratton Smoothwall Proxy
-204.234.184.50
 # Apple Full Class A
 17.0.0.0/8
 # Apple DOH (DNS Over HTTPS)
@@ -41,6 +35,8 @@
 20.98.129.28
 23.102.132.77
 13.86.112.220
+# Google SMTP Relay
+173.194.194.28
 # Eduroam TLRS Servers
 163.253.31.2
 163.253.30.2
@@ -85,3 +81,5 @@
 107.21.242.66
 # Striv
 151.101.66.159
+# Dundy County Stratton Smoothwall Proxy
+204.234.184.50
