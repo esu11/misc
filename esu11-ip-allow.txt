@@ -68,6 +68,8 @@
 198.145.32.0/23
 198.73.96.0/21 
 216.226.196.0/22
+# LCS Wordware
+216.17.30.236
 # Neopost Postage Service for Postage Meters
 23.253.147.97
 40.141.82.122
