@@ -6,7 +6,7 @@
 yourlsnew=1.10.6
 
 wget -P /tmp https://github.com/YOURLS/YOURLS/archive/refs/tags/$yourlsnew.tar.gz
-tar xzvf /tmp/$yourlsnew.tar.gz /tmp
+tar xzvf /tmp/$yourlsnew.tar.gz /tmp/
 sudo cp -R /tmp/YOURLS-$yourlsnew/* /var/www/esu11.info/
 sudo chown -R www-data:www-data /var/www/esu11.info
 sudo cp -R /tmp/YOURLS-$yourlsnew/* /var/www/sveagles.info/
